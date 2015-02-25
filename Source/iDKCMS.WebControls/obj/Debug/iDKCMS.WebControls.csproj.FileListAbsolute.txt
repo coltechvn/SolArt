@@ -1,0 +1,15 @@
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.WebControls\bin\iDKCMS.WebControls.dll
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.WebControls\bin\iDKCMS.WebControls.pdb
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.WebControls\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.WebControls\obj\Debug\iDKCMS.WebControls.dll
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.WebControls\obj\Debug\iDKCMS.WebControls.pdb
+D:\Projects\SolArt\iDKCMS\iDKCMS.WebControls\bin\iDKCMS.WebControls.dll
+D:\Projects\SolArt\iDKCMS\iDKCMS.WebControls\bin\iDKCMS.WebControls.pdb
+D:\Projects\SolArt\iDKCMS\iDKCMS.WebControls\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\SolArt\iDKCMS\iDKCMS.WebControls\obj\Debug\iDKCMS.WebControls.dll
+D:\Projects\SolArt\iDKCMS\iDKCMS.WebControls\obj\Debug\iDKCMS.WebControls.pdb
+D:\Projects\SolArt\Source\iDKCMS.WebControls\bin\iDKCMS.WebControls.dll
+D:\Projects\SolArt\Source\iDKCMS.WebControls\bin\iDKCMS.WebControls.pdb
+D:\Projects\SolArt\Source\iDKCMS.WebControls\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\SolArt\Source\iDKCMS.WebControls\obj\Debug\iDKCMS.WebControls.dll
+D:\Projects\SolArt\Source\iDKCMS.WebControls\obj\Debug\iDKCMS.WebControls.pdb

@@ -1,0 +1,877 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:SubCategory_Full.ascx.cs" caret="0" fromTop="0" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:SubCategory_Full.ascx" caret="0" fromTop="0" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:Subcategory_2level_Center.ascx" caret="1126" fromTop="21" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:Subcategory_2level_Center.ascx.cs" caret="4499" fromTop="15" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:News_Sub.ascx" caret="865" fromTop="10" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:News_Sub.ascx.cs" caret="1164" fromTop="13" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:Search_Khoahoc.ascx" caret="2439" fromTop="16" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:Search_Khoahoc.ascx.cs" caret="1308" fromTop="11" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Column_Right.ascx" caret="1277" fromTop="13" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Zone.ascx" caret="0" fromTop="0" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Zone.ascx.cs" caret="530" fromTop="16" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/d:UserControls/d:Modules/d:CMS/f:ZoneManagers.ascx" caret="6600" fromTop="20" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:Subcategory_2level.ascx" caret="955" fromTop="18" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:Subcategory_2level.ascx.cs" caret="2676" fromTop="15" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/d:UserControls/d:Core/f:MailManage.ascx" caret="4232" fromTop="27" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/d:UserControls/d:Core/f:ErrorReports.ascx" caret="3313" fromTop="13" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/d:UserControls/d:Modules/d:Solart/f:EditContent_KhoaHoc.ascx" caret="0" fromTop="0" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/d:UserControls/d:Modules/d:Solart/f:EditContent_KhoaHoc.ascx.cs" caret="647" fromTop="21" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Column_Right.ascx.cs" caret="280" fromTop="9" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:ClassRegister.ascx" caret="865" fromTop="13" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/f:Web.config" caret="2570" fromTop="25" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:ClassRegister.ascx.cs" caret="2590" fromTop="8" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx.cs" caret="523" fromTop="19" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Home.ascx" caret="0" fromTop="0" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx" caret="1026" fromTop="22" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/f:Default.aspx" caret="1272" fromTop="0" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Home_AloneArea.ascx" caret="0" fromTop="0" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:News_Home.ascx" caret="1032" fromTop="18" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:News_Home.ascx.cs" caret="1467" fromTop="20" />
+      <File id="8515B3B1-5B42-46F1-94A0-F5312CE98305/d:DataAccess/f:DistributionDB.cs" caret="19926" fromTop="23" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:Search_Khoahoc.ascx.cs" caret="348" fromTop="11" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:Search_Khoahoc.ascx.cs" caret="650" fromTop="19" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:Search_Khoahoc.ascx.cs" caret="1772" fromTop="30" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:Search_Khoahoc.ascx.cs" caret="873" fromTop="11" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:Search_Khoahoc.ascx.cs" caret="1886" fromTop="25" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:Search_Khoahoc.ascx.cs" caret="2271" fromTop="29" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Column_Right.ascx" caret="1359" fromTop="14" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Column_Right.ascx.cs" caret="1466" fromTop="23" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:Subcategory_2level.ascx.cs" caret="3080" fromTop="20" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Column_Right.ascx.cs" caret="1249" fromTop="30" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Column_Right.ascx.cs" caret="1076" fromTop="27" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Layout/f:Column_Right.ascx.cs" caret="769" fromTop="22" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/d:UserControls/d:Core/f:ErrorReports.ascx" caret="2131" fromTop="13" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/d:UserControls/d:Core/f:ErrorReports.ascx" caret="3313" fromTop="13" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:ClassRegister.ascx" caret="2663" fromTop="16" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/f:Web.config" caret="2570" fromTop="25" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:Project/f:ClassRegister.ascx.cs" caret="2590" fromTop="8" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx" caret="0" fromTop="0" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx" caret="430" fromTop="11" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx" caret="316" fromTop="6" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx" caret="502" fromTop="16" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx" caret="1001" fromTop="20" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx" caret="1046" fromTop="22" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx.cs" caret="1266" fromTop="37" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx.cs" caret="264" fromTop="14" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx.cs" caret="72" fromTop="2" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx.cs" caret="1266" fromTop="17" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx.cs" caret="1266" fromTop="44" />
+      <File id="0451D236-3AC8-42B7-9B7D-733CB4DF04C1/f:Sql.aspx.cs" caret="458" fromTop="17" />
+      <File id="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE/d:UserControls/f:News_Home.ascx.cs" caret="2058" fromTop="28" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.Layout.Column_Right">
+      <Item value="Visible" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="false" priority="703" />
+      <Item value="TuyenSinh_Home1" priority="95" />
+      <Item value="true" priority="575" />
+      <Item value="Home_AloneArea1" priority="31" />
+      <Item value="lnkZone" priority="223" />
+      <Item value="UrlFilter`0" priority="511" />
+      <Item value="imgAvatar" priority="415" />
+      <Item value="dropZones" priority="63" />
+      <Item value="lstZones" priority="346" />
+      <Item value="ZoneDB`0" priority="383" />
+      <Item value="txtFriendlyUrl" priority="31" />
+      <Item value="int" priority="540" />
+      <Item value="distId" priority="95" />
+      <Item value="if" priority="895" />
+      <Item value="DistributionDB`0" priority="255" />
+      <Item value="else" priority="574" />
+      <Item value="isCreater" priority="31" />
+      <Item value="AdminControl`0" priority="31" />
+      <Item value="isDeployer" priority="31" />
+      <Item value="DataAccess" priority="185" />
+      <Item value="videoId" priority="117" />
+      <Item value="Data" priority="165" />
+      <Item value="dtgData" priority="90" />
+      <Item value="txtAvatar" priority="95" />
+      <Item value="txtYoutube" priority="63" />
+      <Item value="AppEnv`0" priority="671" />
+      <Item value="ConvertUtility`0" priority="1183" />
+      <Item value="HyperLink`0" priority="164" />
+      <Item value="lnkName" priority="383" />
+      <Item value="curData" priority="1311" />
+      <Item value="info" priority="1152" />
+      <Item value="dropType" priority="95" />
+      <Item value="MiscUtility`0" priority="122" />
+      <Item value="lblStatusUpdate" priority="63" />
+      <Item value="string" priority="607" />
+      <Item value="txtFile" priority="191" />
+      <Item value="chkVisible" priority="191" />
+      <Item value="XPath`0" priority="31" />
+      <Item value="txtName" priority="31" />
+      <Item value="txtTeaser" priority="26" />
+      <Item value="txtID" priority="63" />
+      <Item value="id" priority="95" />
+      <Item value="VideoDB`0" priority="63" />
+      <Item value="txtUrl" priority="31" />
+      <Item value="fileAvatarPath" priority="31" />
+      <Item value="myBitmap" priority="63" />
+      <Item value="ImageFormat`0" priority="31" />
+      <Item value="ImageDB`0" priority="64" />
+      <Item value="newfileAvatarName" priority="63" />
+      <Item value="DateTime`0" priority="127" />
+      <Item value="Da" priority="26" />
+      <Item value="downloadId" priority="26" />
+      <Item value="contentDownloadInfo" priority="63" />
+      <Item value="dirUpload" priority="31" />
+      <Item value="double" priority="31" />
+      <Item value="DownloadDB`0" priority="31" />
+      <Item value="fileId" priority="31" />
+      <Item value="ToString`0" priority="31" />
+      <Item value="tooltip" priority="31" />
+      <Item value="SelectDate1" priority="63" />
+      <Item value="friendlyUrl" priority="31" />
+      <Item value="boxtname" priority="31" />
+      <Item value="zoneid" priority="95" />
+      <Item value="var" priority="959" />
+      <Item value="null" priority="95" />
+      <Item value="lnkOther" priority="95" />
+      <Item value="lnkRegister" priority="95" />
+      <Item value="dtData" priority="63" />
+      <Item value="rptData" priority="63" />
+      <Item value="ContentDB`0" priority="31" />
+      <Item value="contentId" priority="127" />
+      <Item value="orginalZoneId" priority="31" />
+      <Item value="retVal" priority="127" />
+      <Item value="return" priority="63" />
+      <Item value="zoneId" priority="31" />
+      <Item value="realUrl" priority="127" />
+      <Item value="Literal`0" priority="296" />
+      <Item value="litDay" priority="31" />
+      <Item value="litMonth" priority="31" />
+      <Item value="avatar" priority="191" />
+      <Item value="litName" priority="127" />
+      <Item value="litTeaser" priority="127" />
+      <Item value="litDatetime" priority="63" />
+      <Item value="MergeFailedEventArgs`0" priority="31" />
+      <Item value="litContent" priority="95" />
+      <Item value="dtSpecial" priority="31" />
+      <Item value="MultimediaUtility`0" priority="159" />
+      <Item value="coverInfo" priority="95" />
+      <Item value="_zonecurrent" priority="319" />
+      <Item value="contactEmail" priority="63" />
+      <Item value="rdolGender" priority="31" />
+      <Item value="zoneInfo" priority="127" />
+      <Item value="iDKCMS" priority="30" />
+      <Item value="zoneparent" priority="31" />
+      <Item value="private" priority="159" />
+      <Item value="Visible" priority="31" />
+      <Item value="lnkAvatar" priority="95" />
+      <Item value="CookieUtility`0" priority="95" />
+      <Item value="_excludeSpecial" priority="31" />
+      <Item value="_zoneCurrent" priority="95" />
+      <Item value="newstime" priority="95" />
+      <Item value="zonecurrent" priority="26" />
+      <Item value="itemId" priority="63" />
+      <Item value="contentInfo" priority="63" />
+      <Item value="_distInfo" priority="95" />
+      <Item value="pnTeaser" priority="31" />
+      <Item value="SpecialInZone1" priority="31" />
+      <Item value="pntSub" priority="31" />
+      <Item value="litDescription" priority="95" />
+      <Item value="litZoneName" priority="31" />
+      <Item value="pnZoneName" priority="31" />
+      <Item value="source" priority="95" />
+      <Item value="khoahocId" priority="250" />
+      <Item value="cosoId" priority="53" />
+      <Item value="_zoneid" priority="31" />
+      <Item value="_itemid" priority="95" />
+      <Item value="ZoneUtility`0" priority="127" />
+      <Item value="Request" priority="95" />
+      <Item value="_contentId" priority="95" />
+      <Item value="WebControl`0" priority="32" />
+      <Item value="liAvatar" priority="63" />
+      <Item value="file" priority="31" />
+      <Item value="youtube" priority="31" />
+      <Item value="Repeater`0" priority="32" />
+      <Item value="rptDocument" priority="31" />
+      <Item value="lnkDownload" priority="63" />
+      <Item value="url" priority="31" />
+      <Item value="Subcategory_Full_2level1" priority="31" />
+      <Item value="KhoaHoc_List1" priority="31" />
+      <Item value="sql" priority="255" />
+      <Item value="DataHelper`0" priority="31" />
+      <Item value="zoneCurrent" priority="63" />
+      <Item value="Image`0" priority="32" />
+      <Item value="SessionUtility`0" priority="95" />
+      <Item value="distid" priority="31" />
+      <Item value="MonhocInfo`0" priority="95" />
+      <Item value="MonhocDB`0" priority="58" />
+      <Item value="txtDes" priority="95" />
+      <Item value="dropDoTuoi" priority="128" />
+      <Item value="khoahocInfo" priority="191" />
+      <Item value="txtKhaiGiang" priority="155" />
+      <Item value="KhoahocInfo" priority="59" />
+      <Item value="dropMonhoc" priority="191" />
+      <Item value="txtGioHoc" priority="96" />
+      <Item value="KhoahocDB`0" priority="255" />
+      <Item value="chklCoso" priority="191" />
+      <Item value="CosoDB`0" priority="95" />
+      <Item value="KhoahocCosoDB`0" priority="127" />
+      <Item value="KhoahocCosoInfo" priority="29" />
+      <Item value="khoahoccosoInfo" priority="31" />
+      <Item value="khoahocCosoInfo" priority="31" />
+      <Item value="CheckBoxList`0" priority="31" />
+      <Item value="GridView`0" priority="31" />
+      <Item value="gvData" priority="63" />
+      <Item value="dt" priority="63" />
+      <Item value="dropClassRegister" priority="58" />
+      <Item value="SettingDB`0" priority="127" />
+      <Item value="zoneClassRegister" priority="31" />
+      <Item value="dtgClass" priority="63" />
+      <Item value="monhocID" priority="31" />
+      <Item value="litMonhoc" priority="31" />
+      <Item value="monhocId" priority="90" />
+      <Item value="txtHocsinhName" priority="95" />
+      <Item value="txtContent" priority="58" />
+      <Item value="dropCoso" priority="63" />
+      <Item value="zoneLayout" priority="31" />
+      <Item value="dropLopHoc" priority="95" />
+      <Item value="doTuoi" priority="31" />
+      <Item value="item" priority="127" />
+      <Item value="txtMonHocText" priority="31" />
+      <Item value="txtDoTuoiText" priority="31" />
+      <Item value="KhoahocMonhocDB`0" priority="53" />
+      <Item value="item2" priority="31" />
+      <Item value="zoneFocus" priority="31" />
+      <Item value="content_ID" priority="31" />
+      <Item value="_contentid" priority="31" />
+      <Item value="butDelete" priority="31" />
+      <Item value="lophocId" priority="31" />
+      <Item value="rptCoso" priority="127" />
+      <Item value="rptCoso_ItemDataBound`0" priority="31" />
+      <Item value="new" priority="95" />
+      <Item value="RepeaterItemEventHandler" priority="57" />
+      <Item value="litCoso" priority="63" />
+      <Item value="litKhaiGiang" priority="63" />
+      <Item value="txtPhuHuynh" priority="31" />
+      <Item value="txtEmail" priority="31" />
+      <Item value="txtPhone" priority="31" />
+      <Item value="txtAddress" priority="31" />
+      <Item value="hocsinhname" priority="95" />
+      <Item value="phuhuynhname" priority="95" />
+      <Item value="emailregister" priority="95" />
+      <Item value="phoneregister" priority="95" />
+      <Item value="addressregister" priority="95" />
+      <Item value="noteregister" priority="127" />
+      <Item value="dropDay" priority="90" />
+      <Item value="dropMonth" priority="31" />
+      <Item value="dropYear" priority="31" />
+      <Item value="HocsinhInfo" priority="29" />
+      <Item value="hocsinhinfo" priority="287" />
+      <Item value="HocsinhDB`0" priority="63" />
+      <Item value="foreach" priority="31" />
+      <Item value="HocsinhRegisterInfo" priority="28" />
+      <Item value="registerInfo" priority="127" />
+      <Item value="hocsinhId" priority="31" />
+      <Item value="HocsinhRegisterDB`0" priority="58" />
+      <Item value="dropFilterMonHoc" priority="63" />
+      <Item value="dropFilterCoso" priority="63" />
+      <Item value="dropFilterDoTuoi" priority="90" />
+      <Item value="FileWebRequest`0" priority="63" />
+      <Item value="dotuoi" priority="63" />
+      <Item value="monhoc" priority="63" />
+      <Item value="coso" priority="63" />
+      <Item value="_lophoc" priority="112" />
+      <Item value="_dotuoi" priority="95" />
+      <Item value="_coso" priority="26" />
+      <Item value="dropFilterLopHoc" priority="31" />
+      <Item value="Response" priority="63" />
+      <Item value="lophoc" priority="31" />
+      <Item value="divRight" priority="31" />
+      <Item value="khInfo" priority="63" />
+      <Item value="_khoahocid" priority="127" />
+      <Item value="CheckBox`0" priority="65" />
+      <Item value="khoahocid" priority="31" />
+      <Item value="chkSelect" priority="31" />
+      <Item value="divNotice" priority="63" />
+      <Item value="litNotice" priority="31" />
+      <Item value="i" priority="95" />
+      <Item value="contentmail" priority="95" />
+      <Item value="chkIsLearning" priority="127" />
+      <Item value="lblPhuHuynh" priority="31" />
+      <Item value="_hocsinhid" priority="127" />
+      <Item value="litLophoc" priority="31" />
+      <Item value="OpenFile`0" priority="31" />
+      <Item value="audioUrl" priority="63" />
+      <Item value="Audio1" priority="31" />
+      <Item value="lnkMore" priority="63" />
+      <Item value="lnkZoneName" priority="95" />
+      <Item value="switch" priority="31" />
+      <Item value="case" priority="31" />
+      <Item value="break" priority="63" />
+      <Item value="default" priority="31" />
+      <Item value="Music_Home1" priority="31" />
+      <Item value="Video_RightSub1" priority="31" />
+      <Item value="CamNhan_Sub1" priority="63" />
+      <Item value="Subcategory_2level1" priority="31" />
+      <Item value="News_Sub1" priority="31" />
+      <Item value="Search_Khoahoc1" priority="31" />
+      <Item value="ConfigurationManager`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="AspCodeCompletionContext">
+      <Item value="Visible" priority="36" />
+      <Item value="SeparatorTemplate" priority="20" />
+      <Item value="li" priority="41" />
+      <Item value="HeaderTemplate" priority="62" />
+      <Item value="FooterTemplate" priority="62" />
+      <Item value="ItemTemplate" priority="161" />
+      <Item value="asp" priority="693" />
+      <Item value="Image`0" priority="48" />
+      <Item value="ID" priority="596" />
+      <Item value="tr" priority="76" />
+      <Item value="td" priority="111" />
+      <Item value="HyperLink`0" priority="174" />
+      <Item value="TextMode" priority="20" />
+      <Item value="MultiLine" priority="27" />
+      <Item value="CssClass" priority="140" />
+      <Item value="link" priority="13" />
+      <Item value="UpdatePanel`0" priority="41" />
+      <Item value="ContentTemplate" priority="41" />
+      <Item value="TextBox`0" priority="13" />
+      <Item value="Width" priority="28" />
+      <Item value="ReadOnly" priority="6" />
+      <Item value="table" priority="20" />
+      <Item value="Repeater`0" priority="41" />
+      <Item value="EnableViewState" priority="72" />
+      <Item value="div" priority="232" />
+      <Item value="class" priority="205" />
+      <Item value="clear" priority="84" />
+      <Item value="Literal`0" priority="174" />
+      <Item value="style" priority="303" />
+      <Item value="overflow" priority="7" />
+      <Item value="BorderStyle" priority="35" />
+      <Item value="Ridge" priority="20" />
+      <Item value="border" priority="27" />
+      <Item value="border-left" priority="7" />
+      <Item value="border-bottom" priority="33" />
+      <Item value="solid" priority="6" />
+      <Item value="margin-top" priority="29" />
+      <Item value="reset" priority="7" />
+      <Item value="Button`0" priority="13" />
+      <Item value="Text" priority="13" />
+      <Item value="RadioButtonList`0" priority="6" />
+      <Item value="ListItem`0" priority="13" />
+      <Item value="Value" priority="13" />
+      <Item value="col-2" priority="6" />
+      <Item value="col-left" priority="62" />
+      <Item value="padding-bottom" priority="25" />
+      <Item value="text-transform" priority="37" />
+      <Item value="runat" priority="83" />
+      <Item value="server" priority="90" />
+      <Item value="maincontent" priority="13" />
+      <Item value="Panel`0" priority="27" />
+      <Item value="b" priority="27" />
+      <Item value="margin-bottom" priority="51" />
+      <Item value="float" priority="63" />
+      <Item value="margin-right" priority="9" />
+      <Item value="ul" priority="34" />
+      <Item value="clearfix" priority="34" />
+      <Item value="id" priority="70" />
+      <Item value="a" priority="13" />
+      <Item value="h1" priority="20" />
+      <Item value="span" priority="6" />
+      <Item value="line-height" priority="47" />
+      <Item value="red" priority="6" />
+      <Item value="padding-top" priority="15" />
+      <Item value="width" priority="76" />
+      <Item value="h2" priority="27" />
+      <Item value="zone_title" priority="6" />
+      <Item value="img_block" priority="6" />
+      <Item value="gallery" priority="6" />
+      <Item value="img" priority="6" />
+      <Item value="src" priority="6" />
+      <Item value="Nav_Main_Image.ascx" priority="14" />
+      <Item value="alt" priority="6" />
+      <Item value="info_right" priority="6" />
+      <Item value="href" priority="6" />
+      <Item value="p" priority="6" />
+      <Item value="target" priority="6" />
+      <Item value="padding-left" priority="77" />
+      <Item value="&amp;nbsp;" priority="5" />
+      <Item value="CheckBox`0" priority="13" />
+      <Item value="CheckBoxList`0" priority="6" />
+      <Item value="RepeatColumns" priority="6" />
+      <Item value="display" priority="47" />
+      <Item value="Enabled" priority="6" />
+      <Item value="BoundColumn`0" priority="6" />
+      <Item value="DataField" priority="6" />
+      <Item value="TemplateColumn`0" priority="6" />
+      <Item value="HeaderRow" priority="7" />
+      <Item value="ItemStyle" priority="13" />
+      <Item value="HeaderText" priority="6" />
+      <Item value="HorizontalAlign" priority="6" />
+      <Item value="Center" priority="6" />
+      <Item value="margin" priority="117" />
+      <Item value="DropDownList`0" priority="6" />
+      <Item value="Height" priority="6" />
+      <Item value="text-align" priority="15" />
+      <Item value="txtMonHocText" priority="7" />
+      <Item value="nguid" priority="6" />
+      <Item value="br" priority="14" />
+      <Item value="ItemDataBound" priority="6" />
+      <Item value="rptCoso_ItemDataBound`0" priority="6" />
+      <Item value="font-weight" priority="19" />
+      <Item value="color" priority="59" />
+      <Item value="background" priority="43" />
+      <Item value="height" priority="49" />
+      <Item value="cursor" priority="19" />
+      <Item value="font-size" priority="17" />
+      <Item value="counter-increment" priority="19" />
+      <Item value="background-color" priority="9" />
+      <Item value="text-decoration" priority="9" />
+      <Item value="underline" priority="5" />
+      <Item value="margin-left" priority="7" />
+      <Item value="button" priority="13" />
+      <Item value="DefaultButton" priority="6" />
+      <Item value="AlternatingItemStyle" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.Project.TuyenSinh_Home">
+      <Item value="ViewStateMode" priority="54" />
+      <Item value="Visible" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.Layout.Home_AloneArea">
+      <Item value="ViewStateMode" priority="26" />
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.UrlFilter">
+      <Item value="BuildUrlByZoneID`0" priority="242" />
+      <Item value="BuildUrlByItemID`0" priority="53" />
+      <Item value="BuildImageUrl`0" priority="134" />
+      <Item value="BuildImageScaleHeight`0" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Image">
+      <Item value="Attributes" priority="26" />
+      <Item value="ImageUrl" priority="80" />
+      <Item value="ViewStateMode" priority="53" />
+      <Item value="Visible" priority="188" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.AttributeCollection">
+      <Item value="Add`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.BackEnd.UserControls.Controls.Editor">
+      <Item value="HtmlValue" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.DataAccess.ZoneDB">
+      <Item value="GetStandAloneBox`0" priority="80" />
+      <Item value="GetByParentID`0" priority="53" />
+      <Item value="GetIDByFriendlyUrl`0" priority="53" />
+      <Item value="GetInfo`0" priority="53" />
+      <Item value="GetParentID`0" priority="80" />
+      <Item value="GetZoneNameByID`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListBox">
+      <Item value="DataSource" priority="53" />
+      <Item value="DataValueField" priority="53" />
+      <Item value="DataTextField" priority="53" />
+      <Item value="DataBind`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="676" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Replace`0" priority="189" />
+      <Item value="Remove`0" priority="26" />
+      <Item value="Length" priority="242" />
+      <Item value="Trim`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.AppEnv">
+      <Item value="CMSContentRank`0" priority="80" />
+      <Item value="VideoWidth" priority="26" />
+      <Item value="VideoHeight" priority="26" />
+      <Item value="UploadDocument" priority="134" />
+      <Item value="AdvInZone" priority="49" />
+      <Item value="GetLanguageFrontEnd`0" priority="134" />
+      <Item value="GetDefaultLanguage`0" priority="22" />
+      <Item value="DownloadBrochure" priority="53" />
+      <Item value="BackgroundMusic" priority="80" />
+      <Item value="CMS_ZoneKhoaHoc" priority="53" />
+      <Item value="GetLanguage`0" priority="26" />
+      <Item value="WEB_CMD" priority="26" />
+      <Item value="CMS_ZoneClassRegister" priority="26" />
+      <Item value="ADMIN_CMD" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.AppEnv+CMSContentRank">
+      <Item value="Default" priority="53" />
+      <Item value="Special" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.DataAccess.DistributionDB">
+      <Item value="CheckContentExist`0" priority="26" />
+      <Item value="GetDeployByZoneID`0" priority="26" />
+      <Item value="GetContentByZoneIDselfAndNumberRecord`0" priority="53" />
+      <Item value="GetDistIDByContentAndZone`0" priority="26" />
+      <Item value="GetContentByZoneIDAndRank`0" priority="53" />
+      <Item value="GetContentByZoneAndRankInZone`0" priority="26" />
+      <Item value="GetZoneID`0" priority="26" />
+      <Item value="GetContentRandomByZoneIDselfAndNumberRecord`0" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.CMS_ContentVideoEntity">
+      <Item value="Content_ID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Data.ContentVideoInfo">
+      <Item value="Video_ID" priority="26" />
+      <Item value="Content_ID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:AWS.FilePicker.FilePicker">
+      <Item value="Text" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Data.VideoInfo">
+      <Item value="Video_YouTube" priority="80" />
+      <Item value="Video_Visible" priority="53" />
+      <Item value="Video_Type" priority="80" />
+      <Item value="Video_File" priority="53" />
+      <Item value="Video_Name" priority="26" />
+      <Item value="Video_Description" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.ConvertUtility">
+      <Item value="ToInt32`0" priority="756" />
+      <Item value="ToBoolean`0" priority="188" />
+      <Item value="ToDateTime`0" priority="107" />
+      <Item value="ToString`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.HyperLink">
+      <Item value="Text" priority="350" />
+      <Item value="ToolTip" priority="26" />
+      <Item value="NavigateUrl" priority="566" />
+      <Item value="Font" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="567" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="379" />
+      <Item value="Items" priority="134" />
+      <Item value="ClearSelection`0" priority="26" />
+      <Item value="DataSource" priority="26" />
+      <Item value="DataValueField" priority="26" />
+      <Item value="DataTextField" priority="26" />
+      <Item value="DataBind`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.MiscUtility">
+      <Item value="SetSelected`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="161" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Checked" priority="296" />
+      <Item value="TemplateControl" priority="26" />
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.DataAccess.VideoDB">
+      <Item value="Delete`0" priority="26" />
+      <Item value="GetInfo`0" priority="26" />
+      <Item value="Update`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="RawFormat" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Png" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.DataAccess.ImageDB">
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="107" />
+      <Item value="Month" priority="76" />
+      <Item value="Day" priority="53" />
+      <Item value="ToLongDateString`0" priority="26" />
+      <Item value="Year" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Data.ImageInfo">
+      <Item value="Image_Description" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Data.ContentDownloadInfo">
+      <Item value="Content_ID" priority="26" />
+      <Item value="Download_ID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Data.DownloadInfo">
+      <Item value="Download_File" priority="26" />
+      <Item value="Download_Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlDataReader">
+      <Item value="GetInt32`0" priority="54" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Data.ZoneInfo">
+      <Item value="Zone_ParentID" priority="26" />
+      <Item value="Zone_RealUrl" priority="81" />
+      <Item value="Zone_Description" priority="26" />
+      <Item value="Zone_Avatar" priority="26" />
+      <Item value="Zone_Name" priority="161" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="Rows" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Count" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Repeater">
+      <Item value="DataSource" priority="53" />
+      <Item value="DataBind`0" priority="53" />
+      <Item value="ItemDataBound" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.DataAccess.ContentDB">
+      <Item value="GetZoneIDByContentID`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="512" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="overflow" priority="0" />
+      <Item value="border" priority="2" />
+      <Item value="border-left" priority="0" />
+      <Item value="border-bottom" priority="3" />
+      <Item value="margin-top" priority="2" />
+      <Item value="padding-bottom" priority="2" />
+      <Item value="text-transform" priority="4" />
+      <Item value="margin-bottom" priority="5" />
+      <Item value="float" priority="6" />
+      <Item value="margin-right" priority="0" />
+      <Item value="line-height" priority="4" />
+      <Item value="padding-top" priority="1" />
+      <Item value="width" priority="7" />
+      <Item value="padding-left" priority="7" />
+      <Item value="display" priority="4" />
+      <Item value="margin" priority="12" />
+      <Item value="text-align" priority="1" />
+      <Item value="font-weight" priority="1" />
+      <Item value="color" priority="5" />
+      <Item value="background" priority="4" />
+      <Item value="height" priority="4" />
+      <Item value="cursor" priority="1" />
+      <Item value="font-size" priority="1" />
+      <Item value="counter-increment" priority="1" />
+      <Item value="clear" priority="1" />
+      <Item value="background-color" priority="0" />
+      <Item value="text-decoration" priority="0" />
+      <Item value="underline" priority="1" />
+      <Item value="margin-left" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.MultimediaUtility">
+      <Item value="ShowYouTuBeAdv`0" priority="26" />
+      <Item value="GetOriginalImage`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RadioButtonList">
+      <Item value="SelectedValue" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.ZoneUtility">
+      <Item value="GetZoneCurrent`0" priority="53" />
+      <Item value="LoadZonesByParentID`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.CookieUtility">
+      <Item value="SetCookieNoExpire`0" priority="26" />
+      <Item value="GetCookie`0" priority="26" />
+      <Item value="SetCookie`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Data.ContentInfo">
+      <Item value="Content_ID" priority="26" />
+      <Item value="Content_Name" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Data.DistributionInfo">
+      <Item value="Distribution_ZoneID" priority="26" />
+      <Item value="Distribution_DisableTeaser" priority="26" />
+      <Item value="Distribution_DisableAvatar" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Panel">
+      <Item value="Visible" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.UserControls.SpecialInZone">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Solart.HocsinhRegisterInfo">
+      <Item value="Hocsinh_ID" priority="49" />
+      <Item value="Content_ID" priority="80" />
+      <Item value="RegisterTime" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Solart.KhoahocCosoInfo">
+      <Item value="Khoahoc_ID" priority="49" />
+      <Item value="Coso_ID" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="QueryString" priority="80" />
+      <Item value="RawUrl" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlGenericControl">
+      <Item value="ViewStateMode" priority="107" />
+      <Item value="Visible" priority="80" />
+      <Item value="Attributes" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.Project.Subcategory_Full_2level">
+      <Item value="ViewStateMode" priority="26" />
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.Project.KhoaHoc_List">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.DataHelper">
+      <Item value="GetData`0" priority="26" />
+      <Item value="GetDataFromTable`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.UserControls.Subcategory_2level_Center">
+      <Item value="ViewStateMode" priority="26" />
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.SessionUtility">
+      <Item value="GetValue`0" priority="53" />
+      <Item value="SetValue`0" priority="26" />
+      <Item value="Remove`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Solart.MonhocInfo">
+      <Item value="Monhoc_ID" priority="22" />
+      <Item value="Monhoc_Name" priority="81" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Solart.CosoInfo">
+      <Item value="Coso_Info" priority="80" />
+      <Item value="Coso_Map" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Solart.KhoahocInfo">
+      <Item value="Khoahoc_DoTuoi" priority="134" />
+      <Item value="Khoahoc_GioHoc" priority="53" />
+      <Item value="Monhoc_ID" priority="53" />
+      <Item value="Khoahoc_KhaiGiang" priority="80" />
+      <Item value="Khoahoc_Avaiable" priority="53" />
+      <Item value="Khoahoc_ID" priority="80" />
+      <Item value="Zone_ID" priority="80" />
+      <Item value="Khoahoc_DoTuoiText" priority="49" />
+      <Item value="Content_ID" priority="26" />
+      <Item value="Khoehoc_NoiDungHoc" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlEntityCodeCompletionContext">
+      <Item value="&amp;nbsp;" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBoolean`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.Solart.MonhocDB">
+      <Item value="GetAll`0" priority="26" />
+      <Item value="GetNameByID`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBoxList">
+      <Item value="DataSource" priority="26" />
+      <Item value="DataTextField" priority="26" />
+      <Item value="DataValueField" priority="26" />
+      <Item value="DataBind`0" priority="26" />
+      <Item value="SelectedValue" priority="26" />
+      <Item value="SelectedItem" priority="26" />
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.Solart.CosoDB">
+      <Item value="GetAll`0" priority="26" />
+      <Item value="GetNameByID`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.Solart.KhoahocCosoDB">
+      <Item value="Remover`0" priority="26" />
+      <Item value="GetCosoDeployed`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="DataSource" priority="26" />
+      <Item value="DataBind`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.DataAccess.SettingDB">
+      <Item value="GetValue`0" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItem">
+      <Item value="Selected" priority="80" />
+      <Item value="Value" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.DataAccess.KhoahocDB">
+      <Item value="Delete`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.Library.Solart.HocsinhInfo">
+      <Item value="Hocsinh_Parent" priority="53" />
+      <Item value="Hocsinh_Email" priority="53" />
+      <Item value="Hocsinh_Tel" priority="26" />
+      <Item value="Hocsinh_Address" priority="26" />
+      <Item value="Hocsinh_Birthday" priority="53" />
+      <Item value="Hocsinh_Note" priority="26" />
+      <Item value="Hocsinh_CreateDate" priority="76" />
+      <Item value="Hocsinh_IsLearning" priority="107" />
+      <Item value="Hocsinh_Name" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.Solart.HocsinhDB">
+      <Item value="Insert`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DataGridCommandEventArgs">
+      <Item value="Item" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@iDKCMS.Library.Solart.HocsinhRegisterDB">
+      <Item value="GetKhoahoc`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ASPNetAudio.Audio">
+      <Item value="AudioURL" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.UserControls.Music_Home">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.UserControls.Video_RightSub">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.Project.CamNhan_Sub">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.UserControls.Subcategory_2level">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.Project.News_Sub">
+      <Item value="ViewStateMode" priority="26" />
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iDKCMS.FrontEnd.Project.Search_Khoahoc">
+      <Item value="Visible" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FontInfo">
+      <Item value="Underline" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationManager">
+      <Item value="AppSettings" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ThongTinCacLopTuyenSinh.ascx.cs" Inherits="iDKCMS.FrontEnd.Project.ThongTinCacLopTuyenSinh" %>
+<asp:Literal runat="server" ID="litContent"></asp:Literal>

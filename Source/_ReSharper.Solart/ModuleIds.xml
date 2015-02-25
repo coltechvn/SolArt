@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="0451D236-3AC8-42B7-9B7D-733CB4DF04C1" ModuleId="iDKCMS.BackEnd" />
+  <Module PersistentId="8515B3B1-5B42-46F1-94A0-F5312CE98305" ModuleId="iDKCMS.Library" />
+  <Module PersistentId="6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE" ModuleId="iDKCMS.FrontEnd" />
+  <Module PersistentId="B4F928F7-0A9D-4AF8-890F-2590F20108A1" ModuleId="iDKCMS.WebControls" />
+</Modules>

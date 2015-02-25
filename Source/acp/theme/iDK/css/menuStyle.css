@@ -1,0 +1,43 @@
+.TopMenuGroup {  /* nen menu */
+	float: right; height: 42px; font-size: 11px; color: white;
+}
+.MenuGroup {  
+	font-size: 11px; color: white;
+}
+
+.TopMenuItem
+{
+	color: white;
+	font-size: 11px;  
+	cursor: pointer;
+	font-weight: bold;
+	padding: 4px 20px 0px 20px;
+}
+
+.TopMenuItemHover
+{
+	color: #ef5a00;
+	font-size: 11px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 4px 20px 0px 20px;
+}
+
+.MenuItem
+{
+	background-color: #060505;
+	color:#fff;
+	font-size:11px;
+	border: solid 1px #060505;
+	cursor: pointer;
+}
+
+.MenuItemHover
+{
+	background-color: #3d3333;
+	color: #fff;
+	font-size:11px;
+	border: solid 1px #3d3333;
+	cursor: pointer;
+}
+

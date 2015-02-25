@@ -1,0 +1,61 @@
+﻿/* Default */
+
+	/* Default: Parent */
+
+body, html, form {
+	font-family: Verdana, Arial, Tahoma; font-size: 11px; margin: 0 auto 0 auto; text-align: center;
+}
+td {
+	font-family: Verdana, Arial, Tahoma; font-size: 11px;
+}
+
+.bodyline {
+	background: url(../img/Login_12.gif) repeat-x left 109px; vertical-align: top;
+}
+.bglogin {
+	background-color: #f0f0f0; vertical-align: top;
+}
+.txtinput {
+	font-family: Times New Roman, Arial, Verdana; font-size: 14px; color: #181619; background-color: transparent; border-bottom: solid 1px #9f9a97; border-top: none; border-left: none; border-right: none; width: 100%;
+}
+.tdinputpad {
+	padding-bottom: 2px;
+}
+.butLogin {
+	background: url(../img/Login_20.gif) no-repeat; cursor: pointer; width: 174px; height: 49px; border: none; margin: 0; padding: 0; display: block; border: 0;
+}
+.tdNotice {
+	 padding-top: 40px; text-align: right; color: #fff; font-size: 14px; font-family: Times New Roman, Arial, Verdanal
+}
+
+
+
+	/* Default: Other */
+hr {
+	width: 90%; text-align: center; height: 1px; color: #AE9462;
+}
+.imgpad {
+	margin-right: 10px; display: block;
+}
+.border0line {
+	border: 0 solid #c0c0c0;
+}
+.border0 {
+	border-color: #c0c0c0;
+	border-width: 0;
+}
+.aligncenter {
+	text-align: center;
+}
+.alignleft {
+	text-align: left;
+}
+.alignright {
+	text-align: right;
+}
+.alignjustify {
+	text-align: justify;
+}
+.boderw0 {
+	border-width: 0px;
+}

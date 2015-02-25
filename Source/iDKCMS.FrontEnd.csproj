@@ -1,0 +1,829 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iDKCMS.FrontEnd</RootNamespace>
+    <AssemblyName>iDKCMS.FrontEnd</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ASPNetAudio.NET4, Version=1.5.1.0, Culture=neutral, PublicKeyToken=806c4c61854698b0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ASPNetAudio.NET4.dll</HintPath>
+    </Reference>
+    <Reference Include="CKEditor.NET, Version=3.6.2.0, Culture=neutral, PublicKeyToken=e379cdf2f8354999, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonLibrary, Version=1.0.1501.20029, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="componentart.web.ui, Version=2.1.2133.0, Culture=neutral, PublicKeyToken=9bc9f846553156bb">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\componentart.web.ui.dll</HintPath>
+    </Reference>
+    <Reference Include="FilePicker, Version=2.0.1484.29016, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\FilePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="FilePickerControl, Version=2.0.1417.40067, Culture=neutral, PublicKeyToken=b6c783efc483733b">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\FilePickerControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="webmsgbox, Version=1.0.1229.30666, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\webmsgbox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BuildImage.aspx" />
+    <Content Include="CKEditor.aspx" />
+    <Content Include="ClickCounter.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="ImageScaleHeight.aspx" />
+    <Content Include="Layout\Column_Right.ascx" />
+    <Content Include="Layout\Content.ascx" />
+    <Content Include="Layout\Footer.ascx" />
+    <Content Include="Layout\Header.ascx" />
+    <Content Include="Layout\Home.ascx" />
+    <Content Include="Layout\Home_AloneArea.ascx" />
+    <Content Include="Layout\Layout_Zone_ClassRegister.ascx" />
+    <Content Include="Layout\Layout_Zone_Contact.ascx" />
+    <Content Include="Layout\Layout_Zone_Gallery.ascx" />
+    <Content Include="Layout\Layout_Zone_Gallery_Item.ascx" />
+    <Content Include="Layout\Layout_Zone_Intro.ascx" />
+    <Content Include="Layout\Layout_Zone_IntroTeacher.ascx" />
+    <Content Include="Layout\Layout_Zone_IntroTeacher_Item.ascx" />
+    <Content Include="Layout\Layout_Zone_Intro_Item.ascx" />
+    <Content Include="Layout\Layout_Zone_Khoahoc.ascx" />
+    <Content Include="Layout\Layout_Zone_Khoahoc_Item.ascx" />
+    <Content Include="Layout\Layout_Zone_Mamnon.ascx" />
+    <Content Include="Layout\Layout_Zone_Mamnon_Item.ascx" />
+    <Content Include="Layout\Layout_Zone_News.ascx" />
+    <Content Include="Layout\Layout_Zone_News_Item.ascx" />
+    <Content Include="Layout\Layout_Zone_Product.ascx" />
+    <Content Include="Layout\Layout_Zone_Product_Item.ascx" />
+    <Content Include="Layout\Layout_Zone_TuyenSinh.ascx" />
+    <Content Include="Layout\Layout_Zone_TuyenSinh_Item.ascx" />
+    <Content Include="Layout\Layout_Zone_Video.ascx" />
+    <Content Include="Layout\Layout_Zone_Video_Item.ascx" />
+    <Content Include="Layout\Zone.ascx" />
+    <Content Include="Project\CamNhan_Home.ascx" />
+    <Content Include="Project\CamNhan_Sub.ascx" />
+    <Content Include="Project\ClassRegister.ascx" />
+    <Content Include="Project\GiaoVienList.ascx" />
+    <Content Include="Project\IntroSolInZone.ascx" />
+    <Content Include="Project\KhoaHoc_List.ascx" />
+    <Content Include="Project\MamNon_List.ascx" />
+    <Content Include="Project\News_Sub.ascx" />
+    <Content Include="Project\Search_Khoahoc.ascx" />
+    <Content Include="Project\Subcategory_Full_2level.ascx" />
+    <Content Include="Project\Subcategory_Full_Giaovien.ascx" />
+    <Content Include="Project\ThongTinCacLopTuyenSinh.ascx" />
+    <Content Include="Project\TuyenSinhList.ascx" />
+    <Content Include="Project\TuyenSinh_Detail.ascx" />
+    <Content Include="Project\TuyenSinh_Home.ascx" />
+    <Content Include="UserControls\Active_Member.ascx" />
+    <Content Include="UserControls\Album_List.ascx" />
+    <Content Include="UserControls\Authentication.ascx" />
+    <Content Include="UserControls\Banner_Footer.ascx" />
+    <Content Include="UserControls\Banner_Home.ascx" />
+    <Content Include="UserControls\Banner_InZone.ascx" />
+    <Content Include="UserControls\Banner_Right.ascx" />
+    <Content Include="UserControls\Cart.ascx" />
+    <Content Include="UserControls\Comments.ascx" />
+    <Content Include="UserControls\ContactForm.ascx" />
+    <Content Include="UserControls\Copyright.ascx" />
+    <Content Include="UserControls\Facebook_Like.ascx" />
+    <Content Include="UserControls\Gallery_Home.ascx" />
+    <Content Include="UserControls\Intro_Block.ascx" />
+    <Content Include="UserControls\Music_Home.ascx" />
+    <Content Include="UserControls\Nav_Footer.ascx" />
+    <Content Include="UserControls\Nav_Footer_2level.ascx" />
+    <Content Include="UserControls\Nav_Left.ascx" />
+    <Content Include="UserControls\Nav_Main.ascx" />
+    <Content Include="UserControls\Nav_Main_Image.ascx" />
+    <Content Include="UserControls\NewsDetail.ascx" />
+    <Content Include="UserControls\NewsFocus.ascx" />
+    <Content Include="UserControls\Newsletter_Register.ascx" />
+    <Content Include="UserControls\Newsletter_Register_Right.ascx" />
+    <Content Include="UserControls\NewsList.ascx" />
+    <Content Include="UserControls\News_Home.ascx" />
+    <Content Include="UserControls\Pix_List.ascx" />
+    <Content Include="UserControls\Register_Member.ascx" />
+    <Content Include="UserControls\Search_Quick.ascx" />
+    <Content Include="UserControls\SpecialInZone.ascx" />
+    <Content Include="UserControls\SubCategory.ascx" />
+    <Content Include="UserControls\Subcategory_2level.ascx" />
+    <Content Include="UserControls\Subcategory_2level_Center.ascx" />
+    <Content Include="UserControls\SubCategory_Full.ascx" />
+    <Content Include="UserControls\Support_Chat.ascx" />
+    <Content Include="UserControls\Video_Home.ascx" />
+    <Content Include="UserControls\Video_List.ascx" />
+    <Content Include="UserControls\Video_RightSub.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BuildImage.aspx.cs">
+      <DependentUpon>BuildImage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuildImage.aspx.designer.cs">
+      <DependentUpon>BuildImage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CKEditor.aspx.cs">
+      <DependentUpon>CKEditor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CKEditor.aspx.designer.cs">
+      <DependentUpon>CKEditor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ClickCounter.aspx.cs">
+      <DependentUpon>ClickCounter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ClickCounter.aspx.designer.cs">
+      <DependentUpon>ClickCounter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ImageScaleHeight.aspx.cs">
+      <DependentUpon>ImageScaleHeight.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageScaleHeight.aspx.designer.cs">
+      <DependentUpon>ImageScaleHeight.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Column_Right.ascx.cs">
+      <DependentUpon>Column_Right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Column_Right.ascx.designer.cs">
+      <DependentUpon>Column_Right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Content.ascx.cs">
+      <DependentUpon>Content.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Content.ascx.designer.cs">
+      <DependentUpon>Content.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Home.ascx.cs">
+      <DependentUpon>Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Home.ascx.designer.cs">
+      <DependentUpon>Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Home_AloneArea.ascx.cs">
+      <DependentUpon>Home_AloneArea.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Home_AloneArea.ascx.designer.cs">
+      <DependentUpon>Home_AloneArea.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_ClassRegister.ascx.cs">
+      <DependentUpon>Layout_Zone_ClassRegister.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_ClassRegister.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_ClassRegister.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Contact.ascx.cs">
+      <DependentUpon>Layout_Zone_Contact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Contact.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Contact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Gallery.ascx.cs">
+      <DependentUpon>Layout_Zone_Gallery.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Gallery.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Gallery.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Gallery_Item.ascx.cs">
+      <DependentUpon>Layout_Zone_Gallery_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Gallery_Item.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Gallery_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Intro.ascx.cs">
+      <DependentUpon>Layout_Zone_Intro.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Intro.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Intro.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_IntroTeacher.ascx.cs">
+      <DependentUpon>Layout_Zone_IntroTeacher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_IntroTeacher.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_IntroTeacher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_IntroTeacher_Item.ascx.cs">
+      <DependentUpon>Layout_Zone_IntroTeacher_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_IntroTeacher_Item.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_IntroTeacher_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Intro_Item.ascx.cs">
+      <DependentUpon>Layout_Zone_Intro_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Intro_Item.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Intro_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Khoahoc.ascx.cs">
+      <DependentUpon>Layout_Zone_Khoahoc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Khoahoc.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Khoahoc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Khoahoc_Item.ascx.cs">
+      <DependentUpon>Layout_Zone_Khoahoc_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Khoahoc_Item.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Khoahoc_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Mamnon.ascx.cs">
+      <DependentUpon>Layout_Zone_Mamnon.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Mamnon.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Mamnon.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Mamnon_Item.ascx.cs">
+      <DependentUpon>Layout_Zone_Mamnon_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Mamnon_Item.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Mamnon_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_News.ascx.cs">
+      <DependentUpon>Layout_Zone_News.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_News.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_News.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_News_Item.ascx.cs">
+      <DependentUpon>Layout_Zone_News_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_News_Item.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_News_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Product.ascx.cs">
+      <DependentUpon>Layout_Zone_Product.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Product.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Product.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Product_Item.ascx.cs">
+      <DependentUpon>Layout_Zone_Product_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Product_Item.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Product_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_TuyenSinh.ascx.cs">
+      <DependentUpon>Layout_Zone_TuyenSinh.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_TuyenSinh.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_TuyenSinh.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_TuyenSinh_Item.ascx.cs">
+      <DependentUpon>Layout_Zone_TuyenSinh_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_TuyenSinh_Item.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_TuyenSinh_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Video.ascx.cs">
+      <DependentUpon>Layout_Zone_Video.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Video.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Video.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Video_Item.ascx.cs">
+      <DependentUpon>Layout_Zone_Video_Item.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Layout_Zone_Video_Item.ascx.designer.cs">
+      <DependentUpon>Layout_Zone_Video_Item.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Layout\Zone.ascx.cs">
+      <DependentUpon>Zone.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layout\Zone.ascx.designer.cs">
+      <DependentUpon>Zone.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\CamNhan_Home.ascx.cs">
+      <DependentUpon>CamNhan_Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\CamNhan_Home.ascx.designer.cs">
+      <DependentUpon>CamNhan_Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\CamNhan_Sub.ascx.cs">
+      <DependentUpon>CamNhan_Sub.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\CamNhan_Sub.ascx.designer.cs">
+      <DependentUpon>CamNhan_Sub.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ClassRegister.ascx.cs">
+      <DependentUpon>ClassRegister.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\ClassRegister.ascx.designer.cs">
+      <DependentUpon>ClassRegister.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\GiaoVienList.ascx.cs">
+      <DependentUpon>GiaoVienList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\GiaoVienList.ascx.designer.cs">
+      <DependentUpon>GiaoVienList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\IntroSolInZone.ascx.cs">
+      <DependentUpon>IntroSolInZone.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\IntroSolInZone.ascx.designer.cs">
+      <DependentUpon>IntroSolInZone.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\KhoaHoc_List.ascx.cs">
+      <DependentUpon>KhoaHoc_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\KhoaHoc_List.ascx.designer.cs">
+      <DependentUpon>KhoaHoc_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\MamNon_List.ascx.cs">
+      <DependentUpon>MamNon_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\MamNon_List.ascx.designer.cs">
+      <DependentUpon>MamNon_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\News_Sub.ascx.cs">
+      <DependentUpon>News_Sub.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\News_Sub.ascx.designer.cs">
+      <DependentUpon>News_Sub.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Search_Khoahoc.ascx.cs">
+      <DependentUpon>Search_Khoahoc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\Search_Khoahoc.ascx.designer.cs">
+      <DependentUpon>Search_Khoahoc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Subcategory_Full_2level.ascx.cs">
+      <DependentUpon>Subcategory_Full_2level.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\Subcategory_Full_2level.ascx.designer.cs">
+      <DependentUpon>Subcategory_Full_2level.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\Subcategory_Full_Giaovien.ascx.cs">
+      <DependentUpon>Subcategory_Full_Giaovien.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\Subcategory_Full_Giaovien.ascx.designer.cs">
+      <DependentUpon>Subcategory_Full_Giaovien.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\ThongTinCacLopTuyenSinh.ascx.cs">
+      <DependentUpon>ThongTinCacLopTuyenSinh.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\ThongTinCacLopTuyenSinh.ascx.designer.cs">
+      <DependentUpon>ThongTinCacLopTuyenSinh.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\TuyenSinhList.ascx.cs">
+      <DependentUpon>TuyenSinhList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\TuyenSinhList.ascx.designer.cs">
+      <DependentUpon>TuyenSinhList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\TuyenSinh_Detail.ascx.cs">
+      <DependentUpon>TuyenSinh_Detail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\TuyenSinh_Detail.ascx.designer.cs">
+      <DependentUpon>TuyenSinh_Detail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Project\TuyenSinh_Home.ascx.cs">
+      <DependentUpon>TuyenSinh_Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project\TuyenSinh_Home.ascx.designer.cs">
+      <DependentUpon>TuyenSinh_Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControls\Active_Member.ascx.cs">
+      <DependentUpon>Active_Member.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Active_Member.ascx.designer.cs">
+      <DependentUpon>Active_Member.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Album_List.ascx.cs">
+      <DependentUpon>Album_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Album_List.ascx.designer.cs">
+      <DependentUpon>Album_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Authentication.ascx.cs">
+      <DependentUpon>Authentication.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Authentication.ascx.designer.cs">
+      <DependentUpon>Authentication.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Banner_Footer.ascx.cs">
+      <DependentUpon>Banner_Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Banner_Footer.ascx.designer.cs">
+      <DependentUpon>Banner_Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Banner_Home.ascx.cs">
+      <DependentUpon>Banner_Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Banner_Home.ascx.designer.cs">
+      <DependentUpon>Banner_Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Banner_InZone.ascx.cs">
+      <DependentUpon>Banner_InZone.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Banner_InZone.ascx.designer.cs">
+      <DependentUpon>Banner_InZone.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Banner_Right.ascx.cs">
+      <DependentUpon>Banner_Right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Banner_Right.ascx.designer.cs">
+      <DependentUpon>Banner_Right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Cart.ascx.cs">
+      <DependentUpon>Cart.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Cart.ascx.designer.cs">
+      <DependentUpon>Cart.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Comments.ascx.cs">
+      <DependentUpon>Comments.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Comments.ascx.designer.cs">
+      <DependentUpon>Comments.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ContactForm.ascx.cs">
+      <DependentUpon>ContactForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ContactForm.ascx.designer.cs">
+      <DependentUpon>ContactForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Copyright.ascx.cs">
+      <DependentUpon>Copyright.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Copyright.ascx.designer.cs">
+      <DependentUpon>Copyright.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Facebook_Like.ascx.cs">
+      <DependentUpon>Facebook_Like.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Facebook_Like.ascx.designer.cs">
+      <DependentUpon>Facebook_Like.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Gallery_Home.ascx.cs">
+      <DependentUpon>Gallery_Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Gallery_Home.ascx.designer.cs">
+      <DependentUpon>Gallery_Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Intro_Block.ascx.cs">
+      <DependentUpon>Intro_Block.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Intro_Block.ascx.designer.cs">
+      <DependentUpon>Intro_Block.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Music_Home.ascx.cs">
+      <DependentUpon>Music_Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Music_Home.ascx.designer.cs">
+      <DependentUpon>Music_Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Nav_Footer.ascx.cs">
+      <DependentUpon>Nav_Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Nav_Footer.ascx.designer.cs">
+      <DependentUpon>Nav_Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Nav_Footer_2level.ascx.cs">
+      <DependentUpon>Nav_Footer_2level.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Nav_Footer_2level.ascx.designer.cs">
+      <DependentUpon>Nav_Footer_2level.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Nav_Left.ascx.cs">
+      <DependentUpon>Nav_Left.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Nav_Left.ascx.designer.cs">
+      <DependentUpon>Nav_Left.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Nav_Main.ascx.cs">
+      <DependentUpon>Nav_Main.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Nav_Main.ascx.designer.cs">
+      <DependentUpon>Nav_Main.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Nav_Main_Image.ascx.cs">
+      <DependentUpon>Nav_Main_Image.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Nav_Main_Image.ascx.designer.cs">
+      <DependentUpon>Nav_Main_Image.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NewsDetail.ascx.cs">
+      <DependentUpon>NewsDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NewsDetail.ascx.designer.cs">
+      <DependentUpon>NewsDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NewsFocus.ascx.cs">
+      <DependentUpon>NewsFocus.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NewsFocus.ascx.designer.cs">
+      <DependentUpon>NewsFocus.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Newsletter_Register.ascx.cs">
+      <DependentUpon>Newsletter_Register.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Newsletter_Register.ascx.designer.cs">
+      <DependentUpon>Newsletter_Register.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Newsletter_Register_Right.ascx.cs">
+      <DependentUpon>Newsletter_Register_Right.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Newsletter_Register_Right.ascx.designer.cs">
+      <DependentUpon>Newsletter_Register_Right.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\NewsList.ascx.cs">
+      <DependentUpon>NewsList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\NewsList.ascx.designer.cs">
+      <DependentUpon>NewsList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\News_Home.ascx.cs">
+      <DependentUpon>News_Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\News_Home.ascx.designer.cs">
+      <DependentUpon>News_Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Pix_List.ascx.cs">
+      <DependentUpon>Pix_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Pix_List.ascx.designer.cs">
+      <DependentUpon>Pix_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Register_Member.ascx.cs">
+      <DependentUpon>Register_Member.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Register_Member.ascx.designer.cs">
+      <DependentUpon>Register_Member.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Search_Quick.ascx.cs">
+      <DependentUpon>Search_Quick.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Search_Quick.ascx.designer.cs">
+      <DependentUpon>Search_Quick.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SpecialInZone.ascx.cs">
+      <DependentUpon>SpecialInZone.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SpecialInZone.ascx.designer.cs">
+      <DependentUpon>SpecialInZone.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SubCategory.ascx.cs">
+      <DependentUpon>SubCategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SubCategory.ascx.designer.cs">
+      <DependentUpon>SubCategory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Subcategory_2level.ascx.cs">
+      <DependentUpon>Subcategory_2level.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Subcategory_2level.ascx.designer.cs">
+      <DependentUpon>Subcategory_2level.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Subcategory_2level_Center.ascx.cs">
+      <DependentUpon>Subcategory_2level_Center.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Subcategory_2level_Center.ascx.designer.cs">
+      <DependentUpon>Subcategory_2level_Center.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\SubCategory_Full.ascx.cs">
+      <DependentUpon>SubCategory_Full.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\SubCategory_Full.ascx.designer.cs">
+      <DependentUpon>SubCategory_Full.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Support_Chat.ascx.cs">
+      <DependentUpon>Support_Chat.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Support_Chat.ascx.designer.cs">
+      <DependentUpon>Support_Chat.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Video_Home.ascx.cs">
+      <DependentUpon>Video_Home.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Video_Home.ascx.designer.cs">
+      <DependentUpon>Video_Home.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Video_List.ascx.cs">
+      <DependentUpon>Video_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Video_List.ascx.designer.cs">
+      <DependentUpon>Video_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Video_RightSub.ascx.cs">
+      <DependentUpon>Video_RightSub.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Video_RightSub.ascx.designer.cs">
+      <DependentUpon>Video_RightSub.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="css\" />
+    <Folder Include="img\" />
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="acp\iDKCMS.BackEnd.csproj">
+      <Project>{0451D236-3AC8-42B7-9B7D-733CB4DF04C1}</Project>
+      <Name>iDKCMS.BackEnd</Name>
+    </ProjectReference>
+    <ProjectReference Include="iDKCMS.Library\iDKCMS.Library.csproj">
+      <Project>{8515B3B1-5B42-46F1-94A0-F5312CE98305}</Project>
+      <Name>iDKCMS.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="iDKCMS.WebControls\iDKCMS.WebControls.csproj">
+      <Project>{B4F928F7-0A9D-4AF8-890F-2590F20108A1}</Project>
+      <Name>iDKCMS.WebControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>8333</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

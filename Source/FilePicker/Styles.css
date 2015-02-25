@@ -1,0 +1,218 @@
+/*
+Product
+		AWS File Picker 2.0
+Authors
+		Alex Avrutin (alex@awsystems.biz)
+		Juan C. Lopez (jlopez@awsystems.biz)
+Company
+		Advanced Web Systems (http:www.awsystems.biz)
+									Join The Progress!
+Version 
+		2.0
+*/
+
+/* 
+=================================================
+General 
+=================================================
+*/ 
+
+
+/* Hyperlinks */
+a:link {color:#FFFFFF; text-decoration:none; font-weight: bold;} 
+a:visited {color:#FFFFFF; text-decoration:none; font-weight: bold;} 
+a:hover {color:#FFFFFF; text-decoration:none; font-weight: bold;} 
+
+a.link:link {color:#0053A5; text-decoration:none; font-weight: normal;}
+a.link:visited {color:#0053A5; text-decoration:none; font-weight: normal;}
+a.link:hover {color:#0053A5; text-decoration:none; font-weight: normal;}
+
+/* Workspace background */
+.background {
+	background-color: #ececec;
+	border-width    : 1; 
+	border-style    : solid;
+	border-color    : #9f9f9f;
+	padding         : 0px;
+}
+
+/* 
+ATTN: If you want scrollbars to be colored 
+in funny colors -- uncomment this block.
+
+body {
+	scrollbar-3dlight-color   : #FFFFFF;
+	scrollbar-arrow-color     : #FFFFFF;
+	scrollbar-base-color      : #00A0E2;
+	scrollbar-darkshadow-color: #00A0E2;
+	scrollbar-face-color      : #00A0E2;
+	scrollbar-highlight-color : #FFFFFF;
+	scrollbar-shadow-color    : #FFFFFF;
+	scrollbar-Track-Color     : #CFDFE5;  
+}
+*/
+
+
+/* 
+=================================================
+Form fields
+=================================================
+*/
+
+/* Generic textbox with write background.  */
+.textBox {
+	background-color: #FFFFFF;
+	font-family     : Verdana,Tahoma,Arial,sans-serif;
+	font-size       : 75%;
+	border-width    : 1;
+	border-style    : solid;
+	border-color    : #0053A5;
+}
+
+/* Texbox for renaming (light-blue background). */
+.newNameTextBox {
+	background-color: #F2D4B8;
+	font-family     : Verdana,Tahoma,Arial,sans-serif;
+	font-size       : 100%;
+	border-width    : 1;
+	border-style    : solid;
+	border-color    : #0053A5;
+	width           : 100%;
+}
+
+/* Texbox for displaying path information. */
+.pathTextBox {
+	background-color: #FFFFFF;
+	font-family     : Verdana,Tahoma,Arial,sans-serif;
+	font-size       : 70%;
+	border-width    : 1;
+	border-style    : solid;
+	border-color    : #0053A5;
+	width           : 100%;      
+}
+
+
+/* 
+=================================================
+Modules and sets
+=================================================
+*/
+ 
+.panel {
+   border-width    : 1; 
+   border-style    : solid;
+   border-color    : #0053A5;
+   background-color: #CFDFE5;
+}
+ 
+.fieldset {
+	font-family  : Verdana,Tahoma,Arial,sans-serif;
+	font-size    : 70%;
+	color        : #000000;
+	border-style : solid;
+	border-color : #0053A5;
+	border-width : 1px;
+}
+
+.radiolist {
+	font-family: Verdana,Tahoma,Arial,sans-serif;
+	font-size  : 100%;
+	color      : #000000;
+}
+ 
+
+/* 
+=================================================
+Grids
+=================================================
+*/
+
+.fileFolderGridHeader {
+	font-family: Verdana,Tahoma,Arial,sans-serif;
+	font-weight: bold;
+	color      : #FFFFFF;
+	background-color:  #F17C0E;
+	font-size: 9pt; 
+	background-image: url("images/header_bg.gif");
+
+}
+
+.fileFolderGrid {
+	border-spacing  : 0;
+	border          : 1;
+	border-collapse : collapse;
+	border-color    : #CED1DB;
+	font-family     : Verdana,Tahoma,Arial,sans-serif;
+	font-size       : 70%;
+}
+
+/* 
+=================================================
+Toolbar
+=================================================
+*/
+
+.buttonOn {
+	border-width: 1;
+	border-color: #0053A5;
+	border-style: solid;
+	background-color: #d2e2ff;
+}
+
+.buttonOff {
+	border-width: 1;
+	border-color: #ececec;
+	border-style: solid;
+	background-color: #ececec;
+}
+
+ 
+/* 
+=================================================
+Various buttons
+=================================================
+*/
+
+.btnOn { 
+	border-width: 1;
+	border-color: #DDEBF1;
+	border-style: solid;
+	background-color: #fff8bb;
+}
+
+.btnOff {
+	border-width: 1;
+	border-color: #d2e2ff;
+	border-style: solid;
+	background-color: #d2e2ff;
+}
+
+
+/* 
+=================================================
+Various text
+=================================================
+*/
+
+.info {
+	font-family: Verdana,Tahoma,Arial,sans-serif;
+	font-size  : 70%;
+	color      : #000000;
+}
+
+.languageSelector {
+	font-family: Verdana, Tahoma, Arial,sans-serif;
+	font-size:70%;
+	font-weight:bold;
+	color:#000000;
+}
+
+.pleaseWait {
+	font-family     : Verdana,Tahoma,Arial,sans-serif;
+	font-size       : 75%;
+	color           : #00A0E2;
+}
+
+.ErrorMessage {
+	color: Red;
+}

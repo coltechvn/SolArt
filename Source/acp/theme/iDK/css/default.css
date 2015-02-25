@@ -1,0 +1,367 @@
+﻿/* Default */
+
+	/* Default: Parent */
+html, form {
+	height: 100%;
+}
+body{
+	
+}
+body.cp {
+	font-family: Verdana, Arial, Tahoma; font-size: 12px; 
+	background: #cac4c0 url(../img/Background.gif) repeat-x left top; margin: 0 auto 0 auto; text-align: center; height: 100%;
+}
+
+body.RadEContent, body.RadEContentBordered
+{
+	background: #fff none no-repeat !important;
+	height: 100%;
+}
+.reContentCell iframe html body {
+	background: #fff none no-repeat !important;
+	height: 100%;
+	text-align: left;
+}
+
+td {
+	font-family: Verdana, Arial, Tahoma; font-size: 11px; text-align: left;
+}
+.overlay {
+	background:transparent url(/acp/img/overlay.png) repeat top left;
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	z-index:100;
+	text-align: center;
+}
+.overlay img {
+	margin-top: 300px;
+}
+#maincontainer {
+	margin: 0 auto; text-align: left; width: 1000px; height: 100%; min-height: 100%;
+}
+.borderleft {
+	background: url(../img/Border_left.gif) repeat-y right top; width: 20px; text-align: right; vertical-align: top;
+}
+.borderright {
+	background: url(../img/Border_right.gif) repeat-y left top; width: 20px; text-align: left; vertical-align: top;
+}
+.maintd {
+	vertical-align: top; height: 100%; min-height: 100%;
+}
+.mainbody {
+	vertical-align: top; height: 100%; min-height: 100%;
+}
+
+.headertd {
+	height: 130px; vertical-align: top; background: url(../img/Head_bg.gif) repeat-x left top; font-size: 11px; color: #FFF;
+}
+#headertop {
+	height: 86px; /*background: url(logo.gif) no-repeat right bottom;*/
+}
+	.menutop {
+		height: 29px;
+	}
+		.language {float: left; padding: 6px 0 0 18px;}
+		.menuitem {float: right; padding: 8px 25px 0 0;}
+		
+	.welcome {
+		padding: 36px 0 0px 18px;
+	}
+		.welcome span {font-weight: bold;}
+		
+	#headertop a, #headertop a:visited {color: #fff; text-decoration: none;}
+	#headertop a:hover {color: #fff; text-decoration: underline;}
+	#headertop a.name, #headertop a.name:visited {color: #ef5a00; text-decoration: none;}
+	#headertop a.name:hover {color: #ef5a00; text-decoration: underline;}
+
+
+#tabbarbg {
+	height: 44px; background: url(../img/Menu_bar.gif) repeat-x left top; font-size: 11px; color: #fff;
+}
+
+
+.bodytd {
+	vertical-align: top; height: 100%; min-height: 100%; background: #FFF url(../img/Splash_shadow.gif) no-repeat center top;
+}
+.cmdtitle{
+	font-size: 14px; font-weight: bold; width: 100%; text-align: center; color: #000; padding: 15px 0 15px 0;
+}
+
+#maincontent {
+	width: 100%; text-align: left;
+}
+
+#datagrid {
+	text-align: left;
+}
+	#datagrid a { color: #FFF; border: solid 1px gray; padding: 2px; background-color: #B5B5B5; text-decoration: none;}
+	#datagrid a:visited {  color: #FFF; border: solid 1px gray; padding: 2px; background-color: #B5B5B5; text-decoration: none;}
+	#datagrid a:hover { color: #FFF; background-color: #989898; text-decoration: none;}
+	
+	#datagrid a.link { color: #ef5a00; text-decoration: none; background-color: transparent; padding: 0; border: 0;}
+	#datagrid a.link:visited { color: #ef5a00; text-decoration: none; background-color: transparent; padding: 0; border: 0;}
+	#datagrid a.link:hover { color: #ef5a00; text-decoration: underline; background-color: transparent; padding: 0; border: 0;}
+
+
+
+.footertd {
+	height: 31px; background: url(../img/Footer_bg.gif) repeat-x left bottom; font-size: 11px; color: #FFF;
+}
+.footerline {
+	background-color: #ef5a00; width: 6px; float: left; height: 31px;
+}
+#footerinfo {
+	float: left; padding: 11px 0 7px 8px; text-align: center;
+}
+	#footerinfo a { color: #FFF; text-decoration: none;}
+	#footerinfo a:visited { color: #FFF; text-decoration: none;}
+	#footerinfo a:hover { color: #FFF; text-decoration: underline;}
+
+
+
+
+	/* Default: Text */
+.textupper {
+	text-transform: uppercase;
+}
+.textverysmall {
+	font-size: 10px;
+}
+.textsmall {
+	font-size: 11px;
+}
+.textsmallbold {
+	font-size: 11px; font-weight: bold;
+}
+.textnormal {
+	font-size: 12px;
+}
+.textnormalbold {
+	font-size: 12px; font-weight: bold;
+}
+.textlarge {
+	font-size: 13px;
+}
+.textlargebold {
+	font-size: 13px; font-weight: bold;
+}
+.textverylargebold {
+	font-size: 14px; font-weight: bold;
+}
+.texthugebold {
+	font-size: 16px; font-weight: bold;
+}
+.textsuperhugebold {
+	font-size: 18px; font-weight: bold;
+}
+.textwhite {
+	COLOR: #FFFFFF;
+}
+.textlink {
+	COLOR: #ef5a00;
+}
+.lineheight {
+	line-height: 18px;
+}
+
+	/* Default: Background */
+.bgblack {
+	background-color: #000000;
+}
+.bgwhite {
+	background-color: #FFFFFF;
+}
+.bgef5a00 {
+	background-color: #ef5a00;
+}
+	
+	/* Default: Link */
+A:link {
+	COLOR: #ef5a00; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ef5a00; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #ef5a00; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ef5a00; TEXT-DECORATION: underline
+}
+A.white:link {
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+A.white:active {
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+A.white:visited {
+	COLOR: #FFFFFF; TEXT-DECORATION: none
+}
+A.white:hover {
+	COLOR: #FFFFFF; TEXT-DECORATION: underline
+}
+A.black:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.black:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.black:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.black:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+
+	/* Default: Form */
+SELECT {
+	font-size: 11px; border: solid 1px;
+}
+INPUT {
+	font-size: 11px;
+}
+TEXTAREA {
+	font-size: 11px;
+}
+.solidnormal {
+	font-size: 11px; border: solid 1px #827784; background-color: #f0f0f0;
+}
+.solid {
+	font-size: 11px; border: solid 1px #827784; width: 100%; background-color: #f0f0f0;
+}
+.solidheight {
+	font-size: 11px; border: solid 1px #827784; width: 100%; height: 100%; background-color: #f0f0f0;
+}
+.DefaultBut {
+	font-size: 11px; color:  #FFFFFF; background-color: #C40E00; font-weight: bold; border-style: solid;
+	border-bottom-color: #828177; border-right-color: #828177; border-top-color: #F9F8F3; border-left-color: #F9F8F3;
+	height: 18px;
+}
+.DefaultButXS {
+	font-size: 11px; font-weight: bold; color:  #FFFFFF; background: url(gd_23.gif); border: none; width: 55px; height: 19px;
+}
+
+	/* Default: Other */
+HR {
+	width: 90%; text-align: center; height: 1px; color: #AE9462;
+}
+.imgpad {
+	margin-right: 10px; display: block;
+}
+.border0line {
+	border: 0 solid #c0c0c0;
+}
+.border0 {
+	border-color: #c0c0c0;
+	border-width: 0;
+}
+.aligncenter {
+	text-align: center;
+}
+.alignleft {
+	text-align: left;
+}
+.alignright {
+	text-align: right;
+}
+.alignjustify {
+	text-align: justify;
+}
+.boderw0 {
+	border-width: 0px;
+}
+
+#LoadingDiv {
+	left: 50%; visibility: visible; position: absolute; top: 40%;
+}
+.Area {
+	border: 1px silver solid; padding: 8px; background-color: #f8f8f8;
+}
+.SidePanel
+{
+	padding: 8px; border: 1px silver solid;	background-color: #f8f8f8;
+}
+.DarkRow {
+	background-color: #f0f0f0; COLOR: #000000;
+}
+
+.LightRow {
+	background-color: #fff; COLOR: #000000;
+}
+.HeaderRow {
+	background-color: #b5b5b5; COLOR: #fff; font-weight: bold; height:25px;
+}
+.Hoverrow {
+	background-color: #dfdfdf;
+}
+
+
+/* =iTABS */
+
+
+ul.iTabs {
+	list-style: none; margin: 0; padding: 0;
+}
+	ul.iTabs li {
+		float: left;
+	}
+	ul.iTabs li a{
+		float: left;
+		display: block;
+		border: 1px #ccc solid;
+		border-bottom: none;
+		font-size: 11px; color: #000;
+		padding: 0 10px; line-height: 28px;
+		margin: 0 0 0 10px;
+		background-color: #eee;
+	}
+	ul.iTabs li a:hover{
+		color: #fff;
+		text-decoration: none;
+		background-color: #c0c0c0;
+	}
+	ul.iTabs li a.selected{
+		color: #fff;
+		text-decoration: none;
+		background-color: #c0c0c0;
+	}
+
+#data_sheet {
+	border-top: 1px #d4d1d1 solid;
+}
+	#data_sheet .block_content {
+
+		padding: 10px 0 0 0;
+		font-size: 11px;
+		text-align: justify;
+	}
+
+.hidden, .collapsed, .block_hidden_only_for_screen { display: none }
+
+/*===================================
+Clearfix
+====================================*/
+
+
+.clearfix:after, .container:after
+{
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow:hidden;
+}
+
+.clearfix, .container { display: inline-block; }
+.clearfix, .container { display: block; }
+
+/* Regular clearing
+   apply to column that should drop below previous ones. */
+
+.clear { clear:both; }
+
+

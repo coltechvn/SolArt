@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="LanguageChoice.ascx.cs" Inherits="iDKCMS.BackEnd.Common.LanguageChoice" %>
+<asp:RadioButtonList id="rdoLanguage" runat="server" AutoPostBack="True" RepeatDirection="Horizontal" RepeatLayout="Flow" OnSelectedIndexChanged="rdoLanguage_SelectedIndexChanged"></asp:RadioButtonList>

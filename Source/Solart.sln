@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iDKCMS.FrontEnd", "iDKCMS.FrontEnd.csproj", "{6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iDKCMS.BackEnd", "acp\iDKCMS.BackEnd.csproj", "{0451D236-3AC8-42B7-9B7D-733CB4DF04C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iDKCMS.Library", "iDKCMS.Library\iDKCMS.Library.csproj", "{8515B3B1-5B42-46F1-94A0-F5312CE98305}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iDKCMS.WebControls", "iDKCMS.WebControls\iDKCMS.WebControls.csproj", "{B4F928F7-0A9D-4AF8-890F-2590F20108A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A81E2D7-6E5A-4FDA-99F1-25D6261AC6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0451D236-3AC8-42B7-9B7D-733CB4DF04C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0451D236-3AC8-42B7-9B7D-733CB4DF04C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0451D236-3AC8-42B7-9B7D-733CB4DF04C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0451D236-3AC8-42B7-9B7D-733CB4DF04C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8515B3B1-5B42-46F1-94A0-F5312CE98305}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8515B3B1-5B42-46F1-94A0-F5312CE98305}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8515B3B1-5B42-46F1-94A0-F5312CE98305}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8515B3B1-5B42-46F1-94A0-F5312CE98305}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F928F7-0A9D-4AF8-890F-2590F20108A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F928F7-0A9D-4AF8-890F-2590F20108A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F928F7-0A9D-4AF8-890F-2590F20108A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F928F7-0A9D-4AF8-890F-2590F20108A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

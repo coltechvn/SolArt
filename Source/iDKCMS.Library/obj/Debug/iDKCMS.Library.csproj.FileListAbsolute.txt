@@ -1,0 +1,15 @@
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.Library\bin\iDKCMS.Library.dll
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.Library\bin\iDKCMS.Library.pdb
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.Library\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.Library\obj\Debug\iDKCMS.Library.dll
+D:\Projects\iDKCMS\Source\iDKCMS\iDKCMS.Library\obj\Debug\iDKCMS.Library.pdb
+D:\Projects\SolArt\iDKCMS\iDKCMS.Library\bin\iDKCMS.Library.dll
+D:\Projects\SolArt\iDKCMS\iDKCMS.Library\bin\iDKCMS.Library.pdb
+D:\Projects\SolArt\iDKCMS\iDKCMS.Library\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\SolArt\iDKCMS\iDKCMS.Library\obj\Debug\iDKCMS.Library.dll
+D:\Projects\SolArt\iDKCMS\iDKCMS.Library\obj\Debug\iDKCMS.Library.pdb
+D:\Projects\SolArt\Source\iDKCMS.Library\bin\iDKCMS.Library.dll
+D:\Projects\SolArt\Source\iDKCMS.Library\bin\iDKCMS.Library.pdb
+D:\Projects\SolArt\Source\iDKCMS.Library\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\SolArt\Source\iDKCMS.Library\obj\Debug\iDKCMS.Library.dll
+D:\Projects\SolArt\Source\iDKCMS.Library\obj\Debug\iDKCMS.Library.pdb

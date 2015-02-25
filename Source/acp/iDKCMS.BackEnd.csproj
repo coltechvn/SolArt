@@ -1,0 +1,528 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0451D236-3AC8-42B7-9B7D-733CB4DF04C1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iDKCMS.BackEnd</RootNamespace>
+    <AssemblyName>iDKCMS.BackEnd</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CKEditor.NET">
+      <HintPath>..\bin\CKEditor.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="CommonLibrary">
+      <HintPath>..\bin\CommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="componentart.web.ui">
+      <HintPath>..\bin\componentart.web.ui.dll</HintPath>
+    </Reference>
+    <Reference Include="FilePicker">
+      <HintPath>..\bin\FilePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="FilePickerControl">
+      <HintPath>..\bin\FilePickerControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="webmsgbox">
+      <HintPath>..\bin\webmsgbox.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Footer.ascx.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Footer.ascx.designer.cs">
+      <DependentUpon>Footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\LanguageChoice.ascx.cs">
+      <DependentUpon>LanguageChoice.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Common\LanguageChoice.ascx.designer.cs">
+      <DependentUpon>LanguageChoice.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Install.aspx.cs">
+      <DependentUpon>Install.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Install.aspx.designer.cs">
+      <DependentUpon>Install.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sql.aspx.cs">
+      <DependentUpon>Sql.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sql.aspx.designer.cs">
+      <DependentUpon>Sql.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Controls\Editor.ascx.cs">
+      <DependentUpon>Editor.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\Editor.ascx.designer.cs">
+      <DependentUpon>Editor.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Controls\SelectDate.ascx.cs">
+      <DependentUpon>SelectDate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Controls\SelectDate.ascx.designer.cs">
+      <DependentUpon>SelectDate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\AccessDeny.ascx.cs">
+      <DependentUpon>AccessDeny.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\AccessDeny.ascx.designer.cs">
+      <DependentUpon>AccessDeny.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\CmdManager.ascx.cs">
+      <DependentUpon>CmdManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\CmdManager.ascx.designer.cs">
+      <DependentUpon>CmdManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\ErrorReports.ascx.cs">
+      <DependentUpon>ErrorReports.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\ErrorReports.ascx.designer.cs">
+      <DependentUpon>ErrorReports.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\GroupCmdRoles.ascx.cs">
+      <DependentUpon>GroupCmdRoles.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\GroupCmdRoles.ascx.designer.cs">
+      <DependentUpon>GroupCmdRoles.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\GroupManager.ascx.cs">
+      <DependentUpon>GroupManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\GroupManager.ascx.designer.cs">
+      <DependentUpon>GroupManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\GroupMembers.ascx.cs">
+      <DependentUpon>GroupMembers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\GroupMembers.ascx.designer.cs">
+      <DependentUpon>GroupMembers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\MailManage.ascx.cs">
+      <DependentUpon>MailManage.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\MailManage.ascx.designer.cs">
+      <DependentUpon>MailManage.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\SettingManager.ascx.cs">
+      <DependentUpon>SettingManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\SettingManager.ascx.designer.cs">
+      <DependentUpon>SettingManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\UserChangePassword.ascx.cs">
+      <DependentUpon>UserChangePassword.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\UserChangePassword.ascx.designer.cs">
+      <DependentUpon>UserChangePassword.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\UserCmdRoles.ascx.cs">
+      <DependentUpon>UserCmdRoles.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\UserCmdRoles.ascx.designer.cs">
+      <DependentUpon>UserCmdRoles.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\UserManager.ascx.cs">
+      <DependentUpon>UserManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\UserManager.ascx.designer.cs">
+      <DependentUpon>UserManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\UserProfile.ascx.cs">
+      <DependentUpon>UserProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\UserProfile.ascx.designer.cs">
+      <DependentUpon>UserProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Core\Welcome.ascx.cs">
+      <DependentUpon>Welcome.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Core\Welcome.ascx.designer.cs">
+      <DependentUpon>Welcome.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Advertise\AdvertiseList.ascx.cs">
+      <DependentUpon>AdvertiseList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Advertise\AdvertiseList.ascx.designer.cs">
+      <DependentUpon>AdvertiseList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Advertise\PositionList.ascx.cs">
+      <DependentUpon>PositionList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Advertise\PositionList.ascx.designer.cs">
+      <DependentUpon>PositionList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Advertise\UploadAdvertise.ascx.cs">
+      <DependentUpon>UploadAdvertise.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Advertise\UploadAdvertise.ascx.designer.cs">
+      <DependentUpon>UploadAdvertise.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\ArchivedList.ascx.cs">
+      <DependentUpon>ArchivedList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\ArchivedList.ascx.designer.cs">
+      <DependentUpon>ArchivedList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\CreateContent.ascx.cs">
+      <DependentUpon>CreateContent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\CreateContent.ascx.designer.cs">
+      <DependentUpon>CreateContent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\DeployBoxList.ascx.cs">
+      <DependentUpon>DeployBoxList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\DeployBoxList.ascx.designer.cs">
+      <DependentUpon>DeployBoxList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\DeployList.ascx.cs">
+      <DependentUpon>DeployList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\DeployList.ascx.designer.cs">
+      <DependentUpon>DeployList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\DeployReturnList.ascx.cs">
+      <DependentUpon>DeployReturnList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\DeployReturnList.ascx.designer.cs">
+      <DependentUpon>DeployReturnList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\DocList.ascx.cs">
+      <DependentUpon>DocList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\DocList.ascx.designer.cs">
+      <DependentUpon>DocList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent.ascx.cs">
+      <DependentUpon>EditContent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent.ascx.designer.cs">
+      <DependentUpon>EditContent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Basic.ascx.cs">
+      <DependentUpon>EditContent_Basic.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Basic.ascx.designer.cs">
+      <DependentUpon>EditContent_Basic.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Box.ascx.cs">
+      <DependentUpon>EditContent_Box.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Box.ascx.designer.cs">
+      <DependentUpon>EditContent_Box.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Documents.ascx.cs">
+      <DependentUpon>EditContent_Documents.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Documents.ascx.designer.cs">
+      <DependentUpon>EditContent_Documents.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Images.ascx.cs">
+      <DependentUpon>EditContent_Images.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Images.ascx.designer.cs">
+      <DependentUpon>EditContent_Images.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Poll.ascx.cs">
+      <DependentUpon>EditContent_Poll.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Poll.ascx.designer.cs">
+      <DependentUpon>EditContent_Poll.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Product.ascx.cs">
+      <DependentUpon>EditContent_Product.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Product.ascx.designer.cs">
+      <DependentUpon>EditContent_Product.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Video.ascx.cs">
+      <DependentUpon>EditContent_Video.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\EditContent_Video.ascx.designer.cs">
+      <DependentUpon>EditContent_Video.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\RoleManager.ascx.cs">
+      <DependentUpon>RoleManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\RoleManager.ascx.designer.cs">
+      <DependentUpon>RoleManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\SettingZone.ascx.cs">
+      <DependentUpon>SettingZone.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\SettingZone.ascx.designer.cs">
+      <DependentUpon>SettingZone.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\StandAloneBox.ascx.cs">
+      <DependentUpon>StandAloneBox.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\StandAloneBox.ascx.designer.cs">
+      <DependentUpon>StandAloneBox.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\WaittingDeployList.ascx.cs">
+      <DependentUpon>WaittingDeployList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\WaittingDeployList.ascx.designer.cs">
+      <DependentUpon>WaittingDeployList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\ZoneManagers.ascx.cs">
+      <DependentUpon>ZoneManagers.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\CMS\ZoneManagers.ascx.designer.cs">
+      <DependentUpon>ZoneManagers.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Order\OrderList.ascx.cs">
+      <DependentUpon>OrderList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Order\OrderList.ascx.designer.cs">
+      <DependentUpon>OrderList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Order\OrderView.ascx.cs">
+      <DependentUpon>OrderView.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Order\OrderView.ascx.designer.cs">
+      <DependentUpon>OrderView.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\DangkyHoc_List.ascx.cs">
+      <DependentUpon>DangkyHoc_List.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\DangkyHoc_List.ascx.designer.cs">
+      <DependentUpon>DangkyHoc_List.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\DangKyHoc_Update.ascx.cs">
+      <DependentUpon>DangKyHoc_Update.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\DangKyHoc_Update.ascx.designer.cs">
+      <DependentUpon>DangKyHoc_Update.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\EditContent_KhoaHoc.ascx.cs">
+      <DependentUpon>EditContent_KhoaHoc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\EditContent_KhoaHoc.ascx.designer.cs">
+      <DependentUpon>EditContent_KhoaHoc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\QuanLyCoSo.ascx.cs">
+      <DependentUpon>QuanLyCoSo.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\QuanLyCoSo.ascx.designer.cs">
+      <DependentUpon>QuanLyCoSo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\QuanLyMonHoc.ascx.cs">
+      <DependentUpon>QuanLyMonHoc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Modules\Solart\QuanLyMonHoc.ascx.designer.cs">
+      <DependentUpon>QuanLyMonHoc.ascx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\iDKCMS.Library\iDKCMS.Library.csproj">
+      <Project>{8515B3B1-5B42-46F1-94A0-F5312CE98305}</Project>
+      <Name>iDKCMS.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\iDKCMS.WebControls\iDKCMS.WebControls.csproj">
+      <Project>{B4F928F7-0A9D-4AF8-890F-2590F20108A1}</Project>
+      <Name>iDKCMS.WebControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Common\Footer.ascx" />
+    <Content Include="Common\Header.ascx" />
+    <Content Include="Common\LanguageChoice.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Install.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="Sql.aspx" />
+    <Content Include="UserControls\Controls\Editor.ascx" />
+    <Content Include="UserControls\Controls\SelectDate.ascx" />
+    <Content Include="UserControls\Core\AccessDeny.ascx" />
+    <Content Include="UserControls\Core\CmdManager.ascx" />
+    <Content Include="UserControls\Core\ErrorReports.ascx" />
+    <Content Include="UserControls\Core\GroupCmdRoles.ascx" />
+    <Content Include="UserControls\Core\GroupManager.ascx" />
+    <Content Include="UserControls\Core\GroupMembers.ascx" />
+    <Content Include="UserControls\Core\MailManage.ascx" />
+    <Content Include="UserControls\Core\SettingManager.ascx" />
+    <Content Include="UserControls\Core\UserChangePassword.ascx" />
+    <Content Include="UserControls\Core\UserCmdRoles.ascx" />
+    <Content Include="UserControls\Core\UserManager.ascx" />
+    <Content Include="UserControls\Core\UserProfile.ascx" />
+    <Content Include="UserControls\Core\Welcome.ascx" />
+    <Content Include="UserControls\Modules\Advertise\AdvertiseList.ascx" />
+    <Content Include="UserControls\Modules\Advertise\PositionList.ascx" />
+    <Content Include="UserControls\Modules\Advertise\UploadAdvertise.ascx" />
+    <Content Include="UserControls\Modules\CMS\ArchivedList.ascx" />
+    <Content Include="UserControls\Modules\CMS\CreateContent.ascx" />
+    <Content Include="UserControls\Modules\CMS\DeployBoxList.ascx" />
+    <Content Include="UserControls\Modules\CMS\DeployList.ascx" />
+    <Content Include="UserControls\Modules\CMS\DeployReturnList.ascx" />
+    <Content Include="UserControls\Modules\CMS\DocList.ascx" />
+    <Content Include="UserControls\Modules\CMS\EditContent.ascx" />
+    <Content Include="UserControls\Modules\CMS\EditContent_Basic.ascx" />
+    <Content Include="UserControls\Modules\CMS\EditContent_Box.ascx" />
+    <Content Include="UserControls\Modules\CMS\EditContent_Documents.ascx" />
+    <Content Include="UserControls\Modules\CMS\EditContent_Images.ascx" />
+    <Content Include="UserControls\Modules\CMS\EditContent_Poll.ascx" />
+    <Content Include="UserControls\Modules\CMS\EditContent_Product.ascx" />
+    <Content Include="UserControls\Modules\CMS\EditContent_Video.ascx" />
+    <Content Include="UserControls\Modules\CMS\RoleManager.ascx" />
+    <Content Include="UserControls\Modules\CMS\SettingZone.ascx" />
+    <Content Include="UserControls\Modules\CMS\StandAloneBox.ascx" />
+    <Content Include="UserControls\Modules\CMS\WaittingDeployList.ascx" />
+    <Content Include="UserControls\Modules\CMS\ZoneManagers.ascx" />
+    <Content Include="UserControls\Modules\Order\OrderList.ascx" />
+    <Content Include="UserControls\Modules\Order\OrderView.ascx" />
+    <Content Include="UserControls\Modules\Solart\DangkyHoc_List.ascx" />
+    <Content Include="UserControls\Modules\Solart\DangKyHoc_Update.ascx" />
+    <Content Include="UserControls\Modules\Solart\EditContent_KhoaHoc.ascx" />
+    <Content Include="UserControls\Modules\Solart\QuanLyCoSo.ascx" />
+    <Content Include="UserControls\Modules\Solart\QuanLyMonHoc.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+    <Folder Include="theme\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9785</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
